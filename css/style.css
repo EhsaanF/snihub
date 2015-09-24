@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?-29f21y');
+    src: url('../fonts/icomoon.eot?#iefix-29f21y') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?-29f21y') format('truetype'),
+    url('../fonts/icomoon.woff?-29f21y') format('woff'),
+    url('../fonts/icomoon.svg?-29f21y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='icon-'], [class*=' icon-'] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-content:before {
+    content: '\f007';
+}
+.icon-gear:before {
+    content: '\f02f';
+}
+.icon-package:before {
+    content: '\f0c4';
+}
+.icon-tag:before {
+    content: '\f015';
+}
+.icon-alert:before {
+    content: '\41';
+}
+.icon-snippets:before {
+    content: '\42';
+}
+.icon-bookmark:before {
+    content: '\43';
+}
+.icon-bug:before {
+    content: '\44';
+}
+.icon-ok:before {
+    content: '\45';
+}
+.icon-enter:before {
+    content: '\46';
+}
+.icon-code:before {
+    content: '\47';
+}
+.icon-comments:before {
+    content: '\48';
+}
+.icon-hot:before {
+    content: '\49';
+}
+.icon-gift:before {
+    content: '\4a';
+}
+.icon-trending:before {
+    content: '\4b';
+}
+.icon-key:before {
+    content: '\4c';
+}
+.icon-private:before {
+    content: '\4d';
+}
+.icon-markdown:before {
+    content: '\4e';
+}
+.icon-github:before {
+    content: '\4f';
+}
+.icon-edit:before {
+    content: '\50';
+}
+.icon-user:before {
+    content: '\51';
+}
+.icon-help:before {
+    content: '\52';
+}
+.icon-broadcast:before {
+    content: '\53';
+}
+.icon-collection:before {
+    content: '\54';
+}
+.icon-pull:before {
+    content: '\55';
+}
+.icon-rocket:before {
+    content: '\56';
+}
+.icon-search:before {
+    content: '\57';
+}
+.icon-sign-in:before {
+    content: '\58';
+}
+.icon-sign-out:before {
+    content: '\59';
+}
+.icon-star:before {
+    content: '\5a';
+}
+.icon-sync:before {
+    content: '\5b';
+}
+.icon-menu:before {
+    content: '\5c';
+}
+.icon-tools:before {
+    content: '\5d';
+}
+.icon-trash:before {
+    content: '\5e';
+}
+
+@font-face {
+    font-family: 'Yekan Web';
+    src: url( '../fonts/yekan-regular.woff' ) format( 'woff' );
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url('../fonts/Roboto-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Roboto-Bold.woff') format('woff');
+}
+
+/*------------------------*/
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    direction: rtl;
+    font-family: 'Yekan Web', 'Roboto', tahoma, sans-serif;
+    color: #333;
+}
+
+input {
+    font-family: tahoma, sans-serif;
+    font-size: 13px !important;
+}
+
+.navbar-default {
+    background-color: #f5f5f5;
+    border-color: #e5e5e5;
+}
+
+.navbar-brand {
+    transition: 200ms all ease-out;
+}
+
+.navbar-brand:hover {
+    color: #4078c0 !important;
+    transition: 200ms all ease-out;
+}
+
+input[type=search] {
+    direction: ltr;
+}
+
+.navbar-form {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.navbar-form, .navbar-form .form-group, .navbar-form .form-group input {
+    width: 300px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-top: -5px;
+}
+
+.browse-snippets {
+    font-size: 16px;
+}
+
+.languages {
+    direction: ltr;
+}
+article.post {
+    border-bottom: 2px dashed #b3b3b3;
+    padding-bottom: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+    direction: ltr;
+    font-family: 'Roboto', tahoma, sans-serif;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.navbar, .footer {
+    flex: none;
+}
+#main-container {
+    flex: 1 0 auto;
+}
+
+.close {
+    float: left;
+}
+
+label {
+    font-weight: normal;
+    font-size: 1.3em;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+}
+
+select {
+    height: auto !important;
+}
+
+.snippet-title-icon {
+    color: #f39c12;
+    margin-left: 5px;
+    text-decoration: none;
+}

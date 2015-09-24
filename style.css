@@ -1,0 +1,11 @@
+/*
+Theme Name: SniHub
+Version: 1.0
+Author: Ehsaan
+Author URI: http://iehsan.ir
+Description: Exclusive theme for SniHub.ir
+*/
+
+@import url( 'css/bootstrap.css' );
+@import url( 'css/prism.css' );
+@import url( 'css/style.css' );
