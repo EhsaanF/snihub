@@ -9,9 +9,9 @@ This theme is made to create a sharing snippets network. It's can easily install
  * A page for submitting snippets, put "[submit-code]" short code in it.
  * A page for user dashboard to view his snippets and marked snippets, put "[my-codes]" short code in it.
  * A page for editing profile, put "[user-profile]" short code in it.
-3. Save created pages IDs, now open `functions.php` file in theme root directory. Now put pages IDs in the `$snihub_options` array.
+3. Save created pages IDs, open `functions.php` file in theme root directory. Then put pages IDs in the `$snihub_options` array.
 4. Activate the theme.
-5. Specify languages in admin side. Go to تکه‌کدها > زبان تکه‌کدها and create languages you want to be there.
+5. Create languages in admin side. Go to تکه‌کدها > زبان تکه‌کدها and create languages you want to be available.
 
 ## Supported languages
 I've used [PrismJS](http://prismjs.com) for syntax highlighting and specified all languages those are related to web. You must use language original name for slug in Languages settings.
